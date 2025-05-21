@@ -7,10 +7,11 @@ Feature: using getText
     And I search by the title of the first item in the blog
     Then I can see no products found message 
 
+@searchP
   Scenario: Pesquisar pelo nome do primeiro item do blog
     Given I open the url 
     When I go to Promotions menu
     And I search by the title of the first product tittle in the blog
-    Then I can the button add to cart
+    Then I can see the button add to cart
 
    
